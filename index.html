@@ -1,33 +1,54 @@
-<!--This is the inspiration for the Image Hovers http://codepen.io/littlesnippets/pen/QdpLbv-->
+<!--This is the inspiration for the 10k Personal Webpage Template http://codepen.io/nizarmah/pen/QEoRpv-->
 <!DOCTYPE html>
-<html>
-  <head>
+
+<head>
     	<title>Brittney Franco</title>
 	</head>
-<Body>	
-My database »
-	 <a href="https://docs.google.com/document/d/1uw4BN2hT_Ob4s5jNC81WD8q8I_FfIqrlAIOTX7ht5QI/edit?usp=sharing">Visit my Database</a>
-	
- <figure class="snip1584"><img src="http://www.glasgowairport.com/media/146249/seoul1.gif" alt="sample87"/>
-  <figcaption>
-    <h3>Computer Science Portfolio</h3>
-    <h5>Brittney Franco</h5>
-  </figcaption><a href="#"></a>
-
-</figure> 
-<figure class="snip1584 hover"><img src="http://more-sky.com/data/out/7/IMG_199972.gif" alt="sample119"/>
-  <figcaption>
-    <h3> My Projects </h3>
-    <h5>2016-2017</h5>
-</figcaption><a href="#"></a>
-</figure>
-
-<figure class="snip1584"><img src="https://lh3.googleusercontent.com/0MRnXStG87QIibcqgv-1LmLXWa9r8Tcy3gtvyDnR7Ms0q2HVi1e2HamUCJYUcuLdwSWHFAe4J5zBoePY9bUz6fdltu9lHScHRPr_W-u1cVcTTZKsrDoNdCCKesH5Sq1Kv75d-rcbaz5JNiC3FO4-10hXOlmHljTE48eZ5Pfmc6imcsjxYFyeVnwnotgrfqxeB15Q6VL8gPylEt4s6BCpIErfFCNcl-l-36wtj-A1bxMJjJhBl_x8EMxCX5U7BHKQcAFyNUQ8iL7E9HUWXExcZFX_X_6L4S3WaCprljx0EsjoKZSQ3X65XGBLQg0Zph3vAfNpbQ9OsX3tTkdFHaKsgIV9fJ7VW0Jqa_aUVP1AXckwlpl5PTFnEx6Ds77HIPuTPaPZSL-OHNMJmsxhLX3JfZ6Gfx6_maLMPij7-_Nys1GhJMQfgBdM1pXGQFEfk0xjr6XYfl2Y3UahOFN8Q4Ncy9ayGKH6vSTa2uNqCcfhcPgHy-h7oTFdUpuq2YW27xXJRlRv2uC2lntEWBGNPMUezze47J0CeHMv-r1NwLGaWCKdiIWnObOkKZ3zSk3I-E8-6j4bKQmbehsBUdMDNQ7Y6sOdaxHgQP6xbNND6bjdVTtZ1RTF6fBL=w200-h188-no" alt="sample120"/>
-  <figcaption>
-    <h3>The Purpose of this website </h3>
-    <h5>To keep track of what I learned for Computer Science.</h5>
-  </figcaption><a href="#"></a>
-</figure>
- <link rel="stylesheet" type="text/css" href="imagehover.css"> 
-<script language="javascript" type="text/javascript" src="imagehover.js"></script>
-	</Body>
+<div class="parallax"><div><div></div><div></div></div><div><div></div><div></div></div></div>
+<header>
+  <h1 class="title">Hello World</h1>
+  <h5 class="subtitle">This is My Computer Science Website </h5>
+  <a href="#home" anchor="true" class="mouse">
+    <div></div>
+  </a>
+</header>
+<div class="body" id="home">
+  <h1 class="label">About</h1>
+  <p>The purpose of this website is to keep track of my Progress throughout Computer Science. I will be sharing my projects and activities through this website. You can visit My Database <a href="https://docs.google.com/document/d/1uw4BN2hT_Ob4s5jNC81WD8q8I_FfIqrlAIOTX7ht5QI/edit?usp=sharing">here</a> were I place my thoughts on Articles about todays news like new technologies.  </p>
+  <h1 class="label">Projects and Activities</h1>
+  <div class="work">
+    <a href="https://nizarmah.me">
+      <img data-src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" class="lazyloaded">
+      <div>
+        <h4>Normal Cat</h4>
+        <p>A normal cat in its normal habitat. Don't attack the cat, or it'll bring hell on to you.</p>
+      </div>
+    </a>
+    <a href="https://nizarmah.me">
+      <img data-src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" class="lazyloaded">
+      <div>
+        <h4>Skinny Kitten Mitten</h4>
+        <p>The skinny kitten mitten... Friendly kitten, good for tackling people down by cuddling on to them.</p>
+      </div>
+    </a>
+    <a href="https://nizarmah.me/">
+      <img data-src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" class="lazyloaded">
+      <div>
+        <h4>Fat Cat Matt</h4>
+        <p>El senor matt. The fastest cat to act. Fun fact, this cat is fat.</p>
+      </div>
+    </a>
+  </div>
+  <p class="extra">You can also <a href="https://docs.google.com/document/d/1uw4BN2hT_Ob4s5jNC81WD8q8I_FfIqrlAIOTX7ht5QI/edit?usp=sharing" class="underline">view more</a></p>
+  <h1 class="label">Contact Me</h1>
+  <form method="post" action="contact" class="contactform">
+    <input type="text" class="field" placeholder="Full Name">
+    <input type="text" class="field" placeholder="Email Address">
+    <textarea class="area" placeholder="Message"></textarea>
+    <input type="submit" class="button" value="Send">
+  </form>
+  <p class="extra">You can also <a href="mailto:franco_brittney@davincischools.org" class="underline">email</a> me</p>
+</div>
+<footer>
+  <h6>Copyright <a href="https://nizarmah.me/">Nizar Mahmoud</a>. 2016. All rights reserved.</h6>
+</footer>
