@@ -1,0 +1,885 @@
+import RPi.GPIO as GPIO #We add the GPIO library to our script so we can use the pins on our RPi.
+import time #Remember from our GoPiGo times, we need to use time.sleep() to control the flow of our code (so it isn't all executed at once!)
+
+
+def A():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	
+def B():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def C():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+		
+def D():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def E():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def F():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def G():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def H():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def I():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def J():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def K():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def L():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def M():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def N():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def O():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def P():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def Q():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def R():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def S():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+def T():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def U():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def V():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def W():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def X():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def Y():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def Z():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def one():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	
+def two():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	
+def three():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	
+def four():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	
+def five():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def six():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def seven():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def eight():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def nine():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def zero():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	
+def per():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	
+def com():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	PIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	PIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	PIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	PIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	PIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	
+def que():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	
+def hyp():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+
+def aps():
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.6)
+	GPIO.output(18,GPIO.LOW)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.HIGH)
+	time.sleep(.2)
+	GPIO.output(18,GPIO.LOW)
+
+	
+GPIO.setmode(GPIO.BCM) #This means that you are referring to the pins by the numbers after "GPIO".
+#The first answer here goes into more detail --> http://raspberrypi.stackexchange.com/questions/12966/what-is-the-difference-between-board-and-bcm-for-gpio-pin-numbering
+
+GPIO.setwarnings(False) #If RPi.GPIO detects that a pin has been configured to something other than the default (input), you get a warning when you try to configure a script; we don't want to be warned, we know what we are doing (hopefully)!
+
+GPIO.setup(18,GPIO.OUT) #You need to set up every pin you are using as an input or an output; here we let the RPi know we will be using GPIO pin 18 as an output.
+
+while True:
+
+	print 'To translate to Morse Code; type a word or phrase, in all lowercase. Special characters are ok, including numbers, punctuation, and hyphenation. Watch the lights.'
+	
+	str = raw_input()
+	str = str.lower()
+	
+	for i in range(0, len(str),1):
+		if str[i] == "a":
+			A()
+			time.sleep(.6)
+			
+		elif str[i] == "b":
+			B()
+			time.sleep(.6)
+			
+		elif str[i] == "c":
+			C()
+			time.sleep(.6)
+			
+		elif str[i] == "d":
+			D()
+			time.sleep(.6)
+		
+		elif str[i] == "e":
+			E()
+			time.sleep(.6)
+		
+		elif str[i] == "f":
+			F()
+			time.sleep(.6)
+		
+		elif str[i] == "g":
+			G()
+			time.sleep(.6)
+		
+		elif str[i] == "h":
+			H()
+			time.sleep(.6)
+		
+		elif str[i] == "i":
+			I()
+			time.sleep(.6)
+		
+		elif str[i] == "j":
+			J()
+			time.sleep(.6)
+		
+		elif str[i] == "k":
+			K()
+			time.sleep(.6)
+		
+		elif str[i] == "l":
+			L()
+			time.sleep(.6)
+		
+		elif str[i] == "m":
+			M()
+			time.sleep(.6)
+		
+		elif str[i] == "n":
+			N()
+			time.sleep(.6)
+		
+		elif str[i] == "o":
+			O()
+			time.sleep(.6)
+		
+		elif str[i] == "p":
+			P()
+			time.sleep(.6)
+		
+		elif str[i] == "q":
+			Q()
+			time.sleep(.6)
+		
+		elif str[i] == "r":
+			R()
+			time.sleep(.6)
+		
+		elif str[i] == "s":
+			S()
+			time.sleep(.6)
+		
+		elif str[i] == "t":
+			T()
+			time.sleep(.6)
+		
+		elif str[i] == "u":
+			U()
+			time.sleep(.6)
+		
+		elif str[i] == "v":
+			V()
+			time.sleep(.6)
+		
+		elif str[i] == "w":
+			W()
+			time.sleep(.6)
+		
+		elif str[i] == "x":
+			X()
+			time.sleep(.6)
+		
+		elif str[i] == "y":
+			Y()
+			time.sleep(.6)
+		
+		elif str[i] == "z":
+			Z()
+			time.sleep(.6)
+		
+		elif str[i] == " ":
+			time.sleep(1.4)
+			
+		elif str[i] == "1":
+			one()
+			time.sleep(.6)
+			
+		elif str[i] == "2":
+			two()
+			time.sleep(.6)
+			
+		elif str[i] == "3":
+			three()
+			time.sleep(.6)
+			
+		elif str[i] == "4":
+			four()
+			time.sleep(.6)
+			
+		elif str[i] == "5":
+			five()
+			time.sleep(.6)
+		
+		elif str[i] == "6":
+			six()
+			time.sleep(.6)
+			
+		elif str[i] == "7":
+			seven()
+			time.sleep(.6)
+			
+		elif str[i] == "8":
+			eight()
+			time.sleep(.6)
+			
+		elif str[i] == "9":
+			nine()
+			time.sleep(.6)
+			
+		elif str[i] == "0":
+			zero()
+			time.sleep(.6)
+			
+		elif str[i] == ".":
+			per()
+			time.sleep(.6)
+			
+		elif str[i] == ",":
+			com()
+			time.sleep(.6)
+			
+		elif str[i] == "?":
+			que()
+			time.sleep(.6)
+			
+		elif str[i] == "-":
+			hyp()
+			time.sleep(.6)
+			
+		elif str[i] == "'":
+			aps()
+			time.sleep(.6)
+			
+		else:
+			print 'wat do'
+			break
